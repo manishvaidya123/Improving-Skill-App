@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Leadership">
+
+    <TextView
+        android:layout_width="331dp"
+        android:layout_height="314dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="46dp"
+        android:text="What are leadership skills?
+Leadership skills are skills you use when organizing other people to reach a shared goal. Whether you’re in a management position or leading a project, leadership skills require you to motivate others to complete a series of tasks, often according to a schedule. Leadership is not just one skill but rather a combination of several different skills working together.
+"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@android:style/Widget.TextView.PopupMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="49dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Leadership Skill"
+        android:textColor="#9C27B0"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

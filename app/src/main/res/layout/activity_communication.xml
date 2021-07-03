@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Communication">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:text="What are communication skills?
+Communication skills are the abilities you use when giving and receiving different kinds of information. Some examples include communicating new ideas, feelings or even an update on your project. Communication skills involve listening, speaking, observing and empathising. It is also helpful to understand the differences in how to communicate through face-to-face interactions, phone conversations and digital communications like email and social media.
+"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@android:style/Widget.TextView.PopupMenu"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Communication Skill"
+        android:textColor="#9C27B0"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

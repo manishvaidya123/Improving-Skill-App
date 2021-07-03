@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Problem">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:text="What are problem-solving skills?
+Problem-solving skills help you determine the source of a problem and find an effective solution. Although problem-solving is often identified as its own separate skill, there are other related skills that contribute to this ability.
+" android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@android:style/Widget.TextView.PopupMenu"
+        android:layout_width="343dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Problem Solving Skill"
+        android:textColor="#9C27B0"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
